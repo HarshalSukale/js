@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Set a default font */
+            margin: 20px; /* Add some margin around the body */
+        }
+        
+        h2 {
+            color: antiquewhite;
+            text-align: left; /* Align the header text to the left */
+        }
+
+        label {
+            color: wheat; /* Set the color of the label */
+            display: block; /* Make the label a block element */
+            margin-bottom: 5px; /* Add some space below the label */
+        }
+
+        input[type="text"] {
+            width: 100%; /* Make the input field full width */
+            padding: 8px; /* Add some padding for better appearance */
+            margin-bottom: 10px; /* Add space below the input field */
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50; /* Green background for the submit button */
+            color: white; /* White text for the button */
+            padding: 10px 15px; /* Add padding for button */
+            border: none; /* Remove border */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+
+<h2>Feedback</h2>
+
+<form action="/action_page.php">
+    <label for="fname">Feedback:</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter your feedback here...">
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

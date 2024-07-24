@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  <title>Harshal's Resume</title>
+  <link rel="icon" type="image/x-icon" href="bapu.ico">
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+  <header>
+    <h1 id="intro"> Harshal Sukale</h1>
+    <img src="download.png" alt="Profile Picture" width="150" height="150">
+    <p>Software Engineer</p>
+    <p>Harshal Sukale | 9172691064 | LinkedIn: harshalsukale</p>
+  </header>
+
+  <main>
+    
+    <section>
+      <h2 class="info">Summary</h2>
+      <p class="info" onmouseover="style.color='grey'"onmouseout="style.color='black'">Software engineer with a strong background in full-stack web development. Proficient in JavaScript, React, Node.js, and SQL. Passionate about creating efficient and user-friendly applications.</p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Location</th>
+          <th>Graduation Date</th>
+          <th>GPA</th>
+        </tr>
+        <tr>
+          <td>Bachelor of Science in Computer Science</td>
+          <td>MIT WPU</td>
+          <td>Pune, Maharashtra</td>
+          <td>May 2023</td>
+          <td>3.8/4.0</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <table>
+        <tr>
+          <th>Position</th>
+          <th>Company</th>
+          <th>Duration</th>
+          <th>Responsibilities</th>
+        </tr>
+        <tr>
+          <td>Software Engineer</td>
+          <td>Microsoft</td>
+          <td>June 2023 - Present</td>
+          <td>
+            <ul>
+              <li>Developed and maintained web applications using React and Node.js</li>
+              <li>Collaborated with cross-functional teams to design and implement new features</li>
+              <li>Optimized application performance and scalability</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Intern</td>
+          <td>Example Inc.</td>
+          <td>May 2020 - August 2020</td>
+          <td>
+            <ul>
+              <li>Assisted in the development of a RESTful API using Node.js and Express</li>
+              <li>Participated in code reviews and pair programming sessions</li>
+              <li>Gained experience in agile development methodologies</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Languages: JavaScript, Python, SQL</li>
+        <li>Frameworks and Libraries: React, Node.js, Express, jQuery</li>
+        <li>Tools: Git, GitHub, VS Code, Sublime text</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Interests</h2>
+      <ul>
+        <li>Open-source software</li>
+        <li>Artificial intelligence and machine learning</li>
+        <li>Hiking and outdoor adventures</li>
+        <li>Playing Games</li>
+      </ul>
+    </section>
+    
+    <section>
+      <div>
+      <h2>LinkedIn Profile</h2>
+      </div>
+      <iframe src="file.html"style="height:200px;width:300px;"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <div id="logo">
+        <div id="insta">
+          <img src="insta (2).png", style="width: 26px;height: 25px;">
+        </div>
+        <div id="twit">
+          <img src="twitter.png", style="width: 26px;height: 25px;">
+        </div>
+        <div id="fb">
+          <img src="download.jpg", style="width: 26px;height: 25px;">
+        </div>
+      </div>  
+      <iframe src="form.html" style="height: 200px;width: 300px;"></iframe>
+
+    <p style="align-content: center;">Last updated: July 16, 2024 by harshalsukale</p>
+    </div>
+    <div>
+      <img id="image" 
+           src="boys.jpg" 
+           style="display: none;" />
+    </div>
+    <button type="button" onclick="show()" id="btnID">
+      Show Image
+    </button>
+    
+    <script>
+      function show() {
+        document.getElementById('image')
+            .style.display = "block";
+        document.getElementById('btnID')
+            .style.display = "none";
+      }
+    </script>
+  </footer>
+</body>
+</html>
